@@ -1,0 +1,18 @@
+# Build setting
+**/node_modules/
+**/dist/
+**/dist-*/
+**/.**
+**/*.log
+**/*.env
+**/*.tsbuildinfo
+!.gitignore
+
+# Work space setting
+!.vscode/
+
+# Bitburner Workspace setting
+**/.shared/
+**/.backup/
+!home/
+!remote/

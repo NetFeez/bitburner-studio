@@ -1,0 +1,40 @@
+{
+  "name": "bitburner-studio",
+  "version": "0.1.0",
+  "description": "A modern development studio for Bitburner featuring TypeScript, visual scripting, AI assistance, and workspace synchronization.",
+  "main": "dist/server.js",
+  "type": "module",
+  "bin": {
+    "bbs": "dist/server.js"
+  },
+  "files": [
+    "dist",
+    "assets",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "scripts/build.sh",
+    "start": "node dist/server.js"
+  },
+  "author": {
+    "name": "Netfeez",
+    "email": "netfeez.dev@gmail.com",
+    "url": "https://github.com/NetFeez"
+  },
+  "keywords": [
+    "bitburner",
+    "workspace",
+    "cli",
+    "websocket"
+  ],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@netfeez/common": "^4.1.0",
+    "@netfeez/common-node": "^3.4.0",
+    "vortez": "^6.0.0-dev.5",
+    "typescript": "^6.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1"
+  }
+}

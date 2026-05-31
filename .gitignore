@@ -1,0 +1,11 @@
+# Build setting
+**/node_modules/
+**/dist/
+**/dist-*/
+**/.**
+**/*.log
+**/*.env
+!.gitignore
+
+# Work space setting to Project IDX
+!.vscode/
