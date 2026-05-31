@@ -1,6 +1,6 @@
 {
   "name": "bitburner-studio",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A modern development studio for Bitburner featuring TypeScript, visual scripting, AI assistance, and workspace synchronization.",
   "main": "dist/server.js",
   "type": "module",

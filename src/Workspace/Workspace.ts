@@ -123,7 +123,7 @@ export class Workspace extends Events {
             logger.log('&C2Created workspace package.json:', packagePath);
         }
         if (!await File.exists(gitignorePath)) {
-            await File.copy(Path.relativeToMe(import.meta, '../../assets', '.gitignore'), gitignorePath);
+            await File.copy(Path.relativeToMe(import.meta, '../../assets', 'gitignore'), gitignorePath);
             logger.log('&C2Created workspace .gitignore:', gitignorePath);
         }
         if (!await File.exists(definitionPath) || forceReloadDefinitions) {
